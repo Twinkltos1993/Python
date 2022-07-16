@@ -62,3 +62,7 @@ one = input()
 two = input()
 three = input()
 print(one,two,three, sep=s)
+
+#example10
+name = input()
+print ('Привет,' , name, end='!')
