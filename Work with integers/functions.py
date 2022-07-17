@@ -70,3 +70,33 @@ d = (h // 60)
 a = (h % 60)
 print(h, 'min - it', d, 'hours', a, 'minutes.')
 
+#example11
+num = int(input())
+a = num % 10
+b = (num % 100) // 10
+c = num // 100
+print('Сумма цифр =', a+b+c)
+print('Произведение цифр =', a*b*c)
+
+#example12
+num = int(input())
+a = num % 10
+b = (num % 100) // 10
+c = num // 100
+print(c,b,a, sep ="")
+print(c,a,b, sep ="")
+print(b,c,a, sep ="")
+print(b,a,c, sep ="")
+print(a,c,b, sep ="")
+print(a,b,c, sep ="")
+
+#example13
+num = int(input())
+a = (num % 10**1) // 10**0
+b = (num % 10**2) // 10**1
+c = (num % 10**3) // 10**2
+d = (num % 10**4) // 10**3
+print('The digit in the thousands is equal', d)
+print('The number in the hundreds position is equal', c)
+print('The digit in the tens position is equal', b)
+print('The digit in the units position is equal to', a)
