@@ -55,3 +55,23 @@ if a < b > a:
     print(a)
 else:
     print(b)
+
+# example 7
+a = int(input())
+b = int(input())
+c = int(input())
+d = int(input())
+if b > a < c:
+    if d > a:
+        print(a)
+if a >= b < c:
+    if d > b:
+        print(b)
+if a > c <= b:
+    if d > c:
+        print(c)
+if a > d < b:
+    if c >= d:
+        print(d)
+        
+#example 8
